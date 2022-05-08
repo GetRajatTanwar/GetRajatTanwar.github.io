@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Krypton"
               description="Krypton is a Modern Real World Web 3.0 Blockchain application. This is a React.js based project which is used to sending transactions through Blockchain & store those transactions right inside of the application.   "
-              link="https://krypton-agr.vercel.app/"
+              link="https://krypton-azure.vercel.app/"
             />
           </Col>
 
