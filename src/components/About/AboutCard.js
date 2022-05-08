@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Delhi, India.</span>
             <br /> I am always ready to learn new things. I love to code and drink coffee😁. 
             <br /> I am a MCA student from JIMS (Jagan Institute of Management Studies). 
-            <br /> I completed my Graduation from IITM (Institute of Innovation in Techology & Management). 
+            <br /> I completed my Graduation from IITM (Institute of Innovation in Techology & Management) Affiliated with GGSIPU.
             <br /> I'm a MERN Stack Developer and I like Fries. No, Fries is not a Javascript Framework, I mean not yet😉.
             <br />
             <br />
@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "...Hardwork Is Worthless For Those That Don't Believe In Themselves..."{" "}
+            "Hardwork Is Worthless For Those That Don't Believe In Themselves..."{" "}
           </p>
           <footer className="blockquote-footer">Rajat :D</footer>
         </blockquote>

@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Web Developer",
           "Equity - Crypto Day Trader",
-          "Working on Web 3.O / Blockchain",
+          "Acquiring New Skills :D",
         ],
         autoStart: true,
         loop: true,

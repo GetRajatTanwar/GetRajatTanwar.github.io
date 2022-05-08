@@ -6,6 +6,8 @@ import shotflix from "../../Assets/Projects/shotflix.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import real from "../../Assets/Projects/real.png";
 import hogwarts from "../../Assets/Projects/hogwarts.png";
+import face from "../../Assets/Projects/face.png";
+import krypton from "../../Assets/Projects/krypton.PNG";
 
 function Projects() {
   return (
@@ -19,6 +21,27 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="Crypto Maniac"
+              description="Crypro Maniac is a React.js based project on Cryptocurrency where we get all the information regarding top 100 coins around the world. "
+              link="https://crypto-maniac-agr.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={krypton}
+              isBlog={false}
+              title="Krypton"
+              description="Krypton is a Modern Real World Web 3.0 Blockchain application. This is a React.js based project which is used to sending transactions through Blockchain & store those transactions right inside of the application.   "
+              link="https://krypton-azure.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shotflix}
@@ -28,17 +51,7 @@ function Projects() {
               link="https://github.com/GetRajatTanwar/Shotflix"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crypto}
-              isBlog={false}
-              title="Crypto Maniac"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link=""
-            />
-          </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hogwarts}
@@ -49,13 +62,23 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="Real Estate Price Predictor">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={real}
               isBlog={false}
               title="Real Estate Price Predictor"
               description="This is a web based project which is used to predict the price of house, flat or any real eastate using supervised machine learning algorithms. The model was successfully able to detect the price of real estate."
               link="https://github.com/GetRajatTanwar/Real-Estate_Price_Predictor"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={face}
+              isBlog={false}
+              title="Face Recognition Attendance System"
+              description="The objective of this project is to build a face recognition-based attendance monitoring system for educational institution to upgrade the current attendance system. Using Python & ML, HAAR, OpenCV. We've also won 1 price for this project in Internal Smart India Hackathon 2022." 
+              link=""
             />
           </Col>
 
