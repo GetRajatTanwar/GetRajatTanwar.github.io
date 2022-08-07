@@ -25,9 +25,6 @@ function Home2() {
             <br />
               I'm an aspiring Web Developer who enjoys connecting the dots... be it ideas from different disciplines, or people from different teams.
             <br />
-            <br /> 
-             
-              <br />
               <br /> Apart coding I’m an Equity Trader and have a good knowledge of
               <i>
                 <b className="purple"> Technical Analysis </b> 
