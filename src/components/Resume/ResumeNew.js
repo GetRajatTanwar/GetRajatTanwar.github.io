@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/GetRajatTanwar/RajatTanwarPortfolio/tree/main/src/Assets/Rajat_Tanwar_Resume.pdf";
+  "https://github.com/GetRajatTanwar/GetRajatTanwar.github.io/tree/main/src/Assets/Rajat_Tanwar_Resume.pdf";
   
 
 function ResumeNew() {
