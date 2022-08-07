@@ -26,11 +26,9 @@ function Home2() {
               I'm an aspiring Web Developer who enjoys connecting the dots... be it ideas from different disciplines, or people from different teams.
             <br />
             <br /> 
-              I like to draw sketches, digital art so I fell in love with making UI designs.  
-              My technical field of expertise lies in UI development and I am passionate about learning new things. 
-        
+             
               <br />
-              <br /> Apart coding I’m an Equity – Crypto trader and have a good knowledge of
+              <br /> Apart coding I’m an Equity Trader and have a good knowledge of
               <i>
                 <b className="purple"> Technical Analysis </b> 
                 and {" "}
@@ -40,7 +38,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Recently our team  &nbsp;
+              Recently my team  &nbsp;
               <i>
                 <b className="purple">"HIDDEN LEAF" </b> scored the 1st position 
                 in  {" "}
